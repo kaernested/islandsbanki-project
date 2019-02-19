@@ -1,0 +1,65 @@
+
+.bold-58{
+    @include font(TT Norms, normal, bold, normal, 58px, no-common-ligatures, #fff);
+}
+.bold-red-48{
+    @include font(TT Norms, normal, bold, normal, 48px, no-common-ligatures, #DC1E35);
+}
+.bold-48{
+    @include font(TT Norms, normal, bold, normal, 48px, no-common-ligatures, #fff);
+}
+.bold-40-red{
+    @include font(TT Norms, normal, bold, normal, 40px, no-common-ligatures, #DC1E35);
+}
+.bold-40{
+    @include font(TT Norms, normal, bold, normal, 40px, no-common-ligatures);
+}
+.bold-40-white{
+    @include font(TT Norms, normal, bold, normal, 40px, no-common-ligatures, #fff);
+}
+.regular-40{
+    @include font(TT Norms, normal, normal, normal, 40px, no-common-ligatures);
+}
+.regular-26{
+    @include font(TT Norms, normal, normal, normal, 26px, no-common-ligatures);
+}
+.regular-26-white{
+    @include font(TT Norms, normal, normal, normal, 26px, no-common-ligatures, #fff);
+}
+.bold-22{
+    @include font(TT Norms, normal, bold, normal, 22px, no-common-ligatures);
+}
+.regular-22{
+    @include font(TT Norms, normal, normal, normal, 22px, no-common-ligatures);
+}
+.regular-20{
+    @include font(TT Norms, normal, normal, normal, 20px, no-common-ligatures);
+}
+.bold-16{
+    @include font(TT Norms, normal, bold, normal, 26px, no-common-ligatures);
+
+}
+.medium-16{
+    @include font(TT Norms, normal, 500, normal, 16px, no-common-ligatures);
+}
+
+.regular-16{
+    @include font(TT Norms, normal, normal, normal, 16px, no-common-ligatures);
+
+}
+.medium-14{
+    @include font(TT Norms, normal, 500, normal, 14px, no-common-ligatures);
+}
+.regular-14{
+    @include font(TT Norms, normal, normal, normal, 14px, no-common-ligatures);
+}
+.regular-red-14{
+    @include font(TT Norms, normal, normal, normal,no-common-ligatures, 14px,#DC1E35);
+
+}
+
+// h1, 
+// h2,
+// h3 {
+//     @extend .regular-16;
+// }

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Styleguide</title>
+            <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon" />
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">     
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="css/reset.css">
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <section class="styleguide-container">
+            <!-- Small btn -->
+                <div class="spacing">
+                    <button class="btn-sm">Reikna</button>
+                </div>
+            <!-- Large btn -->
+                <div class="spacing">
+                    <button class="btn-lg">Taka þátt</button>
+                </div>
+            <!-- Search field -->
+                <div class="spacing">
+                    <div class="search-container">
+                        <i class="fas fa-search"></i>
+                        <input class="search-field" type="field" placeholder="Hvernig getum við hjálpað?">
+                    </div>
+                </div>
+                <!-- input field -->
+                <div class="spacing">
+                    <div class="input-container">
+                        <input class="input-field" type="field" placeholder="Fjöldi umsækjenda">
+                        <i class="fas fa-user-alt"></i>
+                    </div>
+                </div>
+                <!-- input field -->
+                <div class="spacing">
+                    <div class="input-container">
+                        <input class="input-field" type="field" placeholder="Símanúmer">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <!-- input field -->
+                <div class="spacing">
+                    <div class="input-container">
+                        <input class="input-field" type="field" placeholder="Fasteignanúmer">
+                        <i class="fas fa-home"></i>
+                    </div>
+                </div>
+                <!-- input field -->
+                <div class="spacing">
+                    <div class="input-container">
+                        <input class="input-field" type="field" placeholder="Kaupverð">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+                <!-- Dropdown reason -->
+                <div class="spacing">
+                    <div class="search_categories">
+                        <select name="search_categories" id="search_categories">
+                            <option value="1" selected="selected">Ástæða greiðslumats</option>
+                            <option value="2">Kaup</option>
+                            <option value="3">Fyrstu kaup</option>
+                            <option value="4">Endurfjármögnun</option>
+                            <option value="4">Kanna greiðslugetu</option>
+                        </select>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <!-- Dropdown loans -->
+                <div class="spacing">
+                    <div class="search_categories">
+                        <div class="select">
+                            <select name="search_categories" id="search_categories">
+                                <option value="1" selected="selected">Tegund láns</option>
+                                <option value="2">Verðtryggt lán</option>
+                                <option value="3">Óverðtryggt lán</option>
+                                <option value="4">Blandað lán</option>
+                                <option value="4">Óákveðin/n</option>
+                            </select>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Radio buttons -->
+                <div class="spacing">
+                        <label class="radio-btn-container">
+                            <input type="radio" name="radio" value="medlag"><h4 class="regular-16">Meðlag</h4>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="radio-btn-container">
+                            <input type="radio" name="radio" value="rekstur"><h4 class="regular-16">Eigin rekstur</h4>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="radio-btn-container">
+                            <input type="radio" name="radio" value="skilnadur"><h4 class="regular-16">Skilnaðarferli</h4>
+                            <span class="checkmark"></span>
+                        </label>
+                </div>
+                <!-- Checkboxes -->
+                <div class="spacing">
+                    <label class="checkbox-container">Veit ekki fastanúmer
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark-box"></span>
+                    </label>
+
+                    <label class="checkbox-container">Skilnaðarferli
+                        <input type="checkbox">
+                        <span class="checkmark-box"></span>
+                    </label>
+
+                    <label class="checkbox-container">Eigin rekstur
+                        <input type="checkbox">
+                        <span class="checkmark-box"></span>
+                    </label>
+                </div>
+                <!-- Switch -->
+                <div class="spacing">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <!-- Slider -->
+                <div class="spacing">
+                    <div class="singleslidecontainer">
+                        <span class="medium-16">Fasteignamat: <span id="demo"></span> m.kr.</span>
+                        <input type="range" min="1" max="600" value="300" class="singleslider" id="myRange">
+                    </div>
+                </div>
+                <!-- Slider -->
+                <div class="spacing">
+                        <div class="singleslidecontainer2">
+                            <span class="medium-16">Upphæð láns: <span id="demo2"></span> m.kr.</span>
+                            <input type="range" min="1" max="600" value="300" class="singleslider2" id="myRange2">
+                        </div>
+                    </div>
+                <!-- Double Slider -->
+                <div class="spacing">
+                    <section class="range-slider">
+                        <span class="medium-16">Verðbil: <span class="rangeValues"></span> m.kr.</span>
+                        <input value="100" min="0" max="590" step="5" type="range" class="doubleslider">
+                        <input value="500" min="100" max="600" step="5" type="range" class="doubleslider">
+                    </section>
+                </div>
+                <!-- Textarea -->
+                <div class="spacing">
+                    <div class="textarea-container">
+                        <span class="medium-16">Vinsamlega skráið nánari upplýsingar um lánsbeiðni<br>(upplýsingar um kaup/sölu, lánsform, lánstími o.s. frv.)
+                        </span>
+                        <textarea rows="8" cols="80" class="textarea" placeholder="Viðbótarupplýsingar" maxlength="145">
+                        </textarea>
+                    </div>
+                </div>
+                <!-- Compare-btn -->
+                <div class="spacing">
+                    <div class="compare-container">
+                        <div class="compare-btn">
+                            <div class="compare-toggle"><span class="medium-16">1</span></div>
+                            <div class="compare-toggle"><span class="medium-16">2</span></div>
+                            <div class="compare-toggle"><span class="medium-16">3</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Compare-btn -->
+                <div class="spacing">
+                    <div class="loan-container">
+                        <div class="loan-switch">
+                            <div class="loan"><span class="medium-16">Óverðtr.</span></div>
+                            <div class="loan"><span class="medium-16">Blandað</span></div>
+                            <div class="loan"><span class="medium-16">Verðtr.</span></div>
+                        </div>
+                        <span class="border-line"></span>
+                    </div>
+                </div>
+                <!-- Compare-btn -->
+                <div class="spacing">
+                    <div class="custom-select">
+                        <select>
+                            <option value="1" selected="selected">Tegund láns</option>
+                            <option value="2">Verðtryggt lán</option>
+                            <option value="3">Óverðtryggt lán</option>
+                            <option value="4">Blandað lán</option>
+                            <option value="5">Óákveðin/n</option>
+                        </select>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <!-- Compare-btn -->
+                <!-- <div class="spacing">
+                    <div class="custom-select2">
+                        <select>
+                            <option value="1" selected="selected">Tegund láns</option>
+                            <option value="2">Verðtryggt lán</option>
+                            <option value="3">Óverðtryggt lán</option>
+                            <option value="4">Blandað lán</option>
+                            <option value="4">Óákveðin/n</option>
+                        </select>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div> -->
+            </section>
+            <footer>
+
+            </footer>
+            <script src="js/scripts.js"></script>
+        </main>
+    </body>
+</html>
+

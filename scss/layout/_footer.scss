@@ -1,0 +1,28 @@
+footer{
+    width: 84%;
+    margin: 0 auto;
+    font-variant-ligatures: no-common-ligatures;
+
+
+    .footer-container{
+        background-color: #FAFAFA;
+        margin-bottom: 50px;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px;
+    }
+}
+
+.footer-info, .info1, .info2, .footer-products, .footer-finance, .footer-aboutus, .footer-contact{
+    display: flex;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+    }
+    .regular-red-14:hover{
+        color: #a09696;
+        transition: 0.3s;
+    }
+}

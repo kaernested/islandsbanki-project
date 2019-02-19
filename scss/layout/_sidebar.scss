@@ -1,0 +1,49 @@
+aside {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 50;
+
+    .fas,.far{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+}
+.aside-container{
+    height: auto;
+    width: 790px;
+    transform: rotate(90deg) translateY(-2rem);
+    transform-origin: top left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aside-top{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 44px;
+}
+
+.aside-bottom{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-btns {
+    border: none;
+    color: #dc1e35;
+    width: 111px;
+    background-color: transparent;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}

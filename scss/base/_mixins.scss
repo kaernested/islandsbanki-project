@@ -1,0 +1,10 @@
+@mixin font($family, $style, $weight, $height, $size, $ligature, $color:#4f4f4f){
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $height;
+    font-size: $size;
+    font-variant-ligatures: $ligature;
+    color: $color;
+
+}

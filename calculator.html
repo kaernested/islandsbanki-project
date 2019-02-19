@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Húsnæðislána­reiknivél</title>
+            <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon" />
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">     
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="css/reset.css">
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="burger-menus">
+            <div class="white-menu">
+                    <a href="calculator.html"><img src="images/logo/isb-rautt.svg"></a>
+                    <ul>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Sparnaður</button></li></a>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Lán</button></li></a>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Kort</button></li></a>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Þjónusta</button></li></a>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Rekstur</button></li></a>
+                        <a href="#"><li class="list-item"><button class="menu-item-white">Um okkur</button></li></a>
+                    </ul>
+                </div>
+            <div class="menu-container-red">
+                <div class="menu-red">
+                    <ul>
+                        <li><button class="menu-item-red-bg">Húsnæðislán</button></li>
+                        <li><button class="menu-item-red-bg">Lán fyrir þig</button></li>
+                        <li><button class="menu-item-red-bg">Bílafjármögnun</button></li>
+                    </ul>
+                </div>
+                <div class="menu-red-related">
+                    <h3 class="regular-26-white">Tengt efni</h3>
+                    <ul>
+                        <a href="#"><li class="list-item2"><button class="menu-item-red-sm">Greiðslumat</button></li></a>
+                        <a href="#"><li class="list-item2"><button class="menu-item-red-sm">Lán fyrir námsmenn</button></li></a>
+                        <a href="#"><li class="list-item2"><button class="menu-item-red-sm">Húsnæðislánareiknivél</button></li></a>
+                        <a href="#"><li class="list-item2"><button class="menu-item-red-sm">Yfirdráttur</button></li></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="header-container">
+                <ul class="list-container">
+                    <li>
+                        <div class="burger-container close">
+                            <span class="burgerlines"></span>
+                            <span class="burgerlines"></span>
+                            <span class="burgerlines"></span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header-breadcrumb">
+                    <a href="#"><button class="breadcrumb-btn">Húsnæðislán</button></a>
+                </div>
+            </div> 
+        </header>
+        <aside>
+            <div class="aside-container">
+                <div class="aside-top">
+                    <button class="side-btns"><i class="fas fa-lock"></i>Netbanki</button>
+                    <button class="side-btns"><i class="fas fa-search"></i>Hjálpin</button>
+                </div>
+                <div class="aside-bottom">
+                    <button class="side-btns"><i class="far fa-comment-alt"></i>Netspjall</button>
+                    <button class="side-btns"><i class="fas fa-globe"></i>IS</button>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="main-content">
+                    <a href="calculator.html"><img src="images/logo/isb-rautt.svg"></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="bold-red-48">Húsnæðislánareiknivél</h1>
+                            <h4 class="bold-22">Góðir hlutir gerast hægt</h4>
+                            <div class="red-decoration"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="search-container">
+                                <i class="fas fa-search"></i>
+                                <input class="search-field" type="field" placeholder="Hvernig getum við hjálpað?">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="regular-16">Bera saman lán</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="compare-container">
+                                <div class="compare-btn">
+                                    <div class="compare-toggle"><span class="medium-16">1</span></div>
+                                    <div class="compare-toggle"><span class="medium-16">2</span></div>
+                                    <div class="compare-toggle"><span class="medium-16">3</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="singleslidecontainer">
+                                <span class="medium-16">Fasteignamat: <span id="demo"></span> m.kr.</span>
+                                <input type="range" min="1" max="600" value="300" class="singleslider" id="myRange">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="singleslidecontainer2">
+                                <span class="medium-16">Upphæð láns: <span id="demo2"></span> m.kr.</span>
+                                <input type="range" min="1" max="600" value="300" class="singleslider2" id="myRange2">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <section class="range-slider">
+                                <span class="medium-16">Verðbil: <span class="rangeValues"></span> m.kr.</span>
+                                <input value="100" min="0" max="590" step="5" type="range" class="doubleslider">
+                                <input value="500" min="100" max="600" step="5" type="range" class="doubleslider">
+                            </section>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="loan-container">
+                                <div class="loan-switch">
+                                    <div class="loan"><span class="medium-16">Óverðtr.</span></div>
+                                    <div class="loan"><span class="medium-16">Blandað</span></div>
+                                    <div class="loan"><span class="medium-16">Verðtr.</span></div>
+                                </div>
+                                <span class="border-line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="loan-heading">
+                                <i class="fas fa-minus"></i>
+                                <h4 class="bold-22">Óverðtryggt lán</h4>
+                            </div>
+                            <ul>
+                                <li><span class="regular-14">Greitt á mánuði</span><span class="medium-14">139.200 kr.</span></li>
+                                <li><span class="regular-14">Samtals greitt</span><span class="medium-14">61.194.997 kr.</span></li>
+                                <li><span class="regular-14">Vextir frá</span><span class="medium-14">6,00 %</span></li>
+                                <li><span class="regular-14">Árleg hlutfallstala kostnaðar</span><span class="medium-14">6,41 %</span></li>
+                                <li><span class="regular-14">Höfuðstóll</span><span class="medium-14">24.000.000 kr.</span></li>
+                                <li><span class="regular-14">Niðurgreiðsla höfuðstóls</span><span class="medium-14">Miðlungs</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="loan-heading">
+                                <i class="fas fa-plus"></i>
+                                <h4 class="bold-22">Fyrirkomulag láns</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="loan-heading">
+                                <i class="fas fa-plus"></i>
+                                <h4 class="bold-22">Lántökukostnaður</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="loan-heading">
+                                <i class="fas fa-plus"></i>
+                                <h4 class="bold-22">Greiðsluáætlun</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="bold-red-48">Bráðabirgðagreiðsumat</h1>
+                            <div class="red-decoration"></div>
+                            <h4 class="regular-22">Bráðabirgðagreiðslumat er reiknivél á netinu þar sem hægt er að kanna greiðslugetu. Með því að sækja um greiðslumat á netinu geta viðskiptavinir fengið fullgilt greiðslumat án þess að mæta í útibú.</h4>
+                            <h5 class="medium-16">Bráðabirgðagreiðslumat</h5>
+                            <h5 class="medium-16">Sækja um greiðslumat</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-info">
+                        <div class="info1">
+                            <h5 class="medium-16">Íslandsbanki</h5>
+                            <p class="regular-14">Kt. 491008-0160</p>
+                            <p class="regular-14">Swift: GLITISRE</p>
+                            <a href="#"><p class="regular-red-14">Lagalegir fyrirvarar</p></a>
+                        </div>
+                        <div class="info2">
+                            <p class="regular-red-14">Vaxtatafla og verðskrá</p>
+                            <p class="regular-red-14">Tilkynna misferli</p>
+                            <p class="regular-red-14">Persónuverndarstefna</p>
+                            <p class="regular-red-14">Kvartanir og ábendingar</p>
+                        </div>
+                    </div>
+                    <div class="footer-products">
+                        <h4 class="regular-20">Vörur</h4><br>
+                        <p class="regular-red-14">Sparnaðarreikningar</p>
+                        <p class="regular-red-14">Sjóðir</p>
+                        <p class="regular-red-14">Húsnæðislán</p>
+                        <p class="regular-red-14">Kreditkort</p>
+                        <p class="regular-red-14">Umsóknir</p>
+                    </div>
+                    <div class="footer-finance">
+                        <h4 class="regular-20">Rekstur</h4><br>
+                        <p class="regular-red-14">Daglegur rekstur</p>
+                        <p class="regular-red-14">Fjármögnun</p>
+                        <p class="regular-red-14">Fyrirtækjaþjónusta</p>
+                        <p class="regular-red-14">Markaðir</p>
+                        <p class="regular-red-14">Umsóknir</p>               
+                    </div>
+                    <div class="footer-aboutus">
+                        <h4 class="regular-20">Um okkur</h4><br>
+                        <p class="regular-red-14">Opnunartímar</p>
+                        <p class="regular-red-14">Útibú og hraðbankar</p>
+                        <p class="regular-red-14">Fjárfestatengsl</p>
+                        <p class="regular-red-14">Störf í boði</p>
+                    </div>
+                    <div class="footer-contact">
+                        <div class="contact1">
+                            <h4 class="regular-20">Við viljum heyra í þér</h4>
+                            <h2 class="bold-40-red">440 4000</h2>
+                            <p class="regular-red-14">Hafa samband</p>
+                            <p class="regular-red-14">Nýr viðskiptavinur</p>
+                            <p class="regular-red-14">islandsbanki@islandsbanki.is</p>
+                        </div>
+                        <div class="contact2">
+                            <p class="regular-14">Á samfélagsmiðlum</p>
+                            <p class="regular-red-14">Facebook Twitter Youtube</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="js/scripts.js"></script>
+        </main>
+    </body>
+</html>

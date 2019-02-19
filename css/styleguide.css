@@ -1,0 +1,61 @@
+.container {
+  margin-left: 50px;
+}
+
+.spacing {
+  margin: 20px;
+}
+
+.btn-sm {
+  width: 136px;
+  height: 32px;
+  background-color: #C8C8C8;
+  color: white;
+  border-radius: 3px;
+  font-family: TT Norms;
+  font-size: 14px;
+  outline: none;
+}
+.btn-sm:hover {
+  transition: 0.3s;
+  background-color: #DC1E35;
+}
+
+.btn-lg {
+  width: 272px;
+  height: 44px;
+  background-color: #C8C8C8;
+  color: white;
+  border-radius: 3px;
+  font-family: TT Norms;
+  font-size: 14px;
+  outline: none;
+}
+.btn-lg:hover {
+  transition: 0.3s;
+  background-color: #DC1E35;
+}
+
+.input-container {
+  border-radius: 3px;
+  box-shadow: 1px 1px 15px #d1d1d1;
+  border: none;
+  display: inline-block;
+}
+.input-container .input-field {
+  width: 272px;
+  height: 44px;
+  border: none;
+  background-color: #fff;
+  font-family: TT Norms;
+  font-size: 14px;
+  outline: none;
+}
+.input-container .fa-search {
+  color: #DC1E35;
+  font-size: 16px;
+  left: 50px;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=styleguide.css.map */
